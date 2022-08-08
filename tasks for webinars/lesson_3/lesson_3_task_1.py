@@ -8,7 +8,8 @@ def division(a, b):
     try:
         return a / b
     except ZeroDivisionError:
-        return 'Division by 0!'
+        print('Division by 0!')
+        return
 
 
 dividend, divisor = map(int, input('Enter dividend and divisor separated by space: ').split())

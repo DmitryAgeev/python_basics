@@ -15,6 +15,12 @@ def int_func(word: str):
 
 def capitalize_func(text: str):
     words = text.split()
+
+    # res = []
+    # for word in words:
+    #     res.append(int_func(word))
+    # return ' '.join(res)
+
     return ' '.join(list(map(lambda word: int_func(word), words)))
 
 
@@ -22,4 +28,4 @@ string = input('Enter text: ')
 print(capitalize_func(string))
 
 # In Python 3.6+ it's much easier.
-print(string.title())
+# print(string.title())
