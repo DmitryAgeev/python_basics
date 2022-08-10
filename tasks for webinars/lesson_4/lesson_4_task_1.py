@@ -6,7 +6,7 @@
 
 from sys import argv
 
-script_name, hours, rate, bonus = argv
+_, hours, rate, bonus = argv
 
 salary = float(hours) * float(rate) + float(bonus)
 print(f'Employee salary: {salary}')

@@ -15,6 +15,6 @@ def numbers_in_order(some_list):
 
 
 input_list = list(map(int, input('Enter numbers for the list, separated by a space: ').split()))
-print(f'Original list: {input_list}')
 new_list = [number for number in numbers_in_order(input_list)]
+print(f'Original list: {input_list}')
 print(f'New list: {new_list}')
