@@ -15,8 +15,7 @@ class Road:
         self._width = width
 
     def calc_sum_mass(self, mass, height):
-        sum_mass = self._length * self._width * mass * height
-        return sum_mass
+        return self._length * self._width * mass * height
 
 
 road_length = int(input("Enter the length of the road in meters: "))
