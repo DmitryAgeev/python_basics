@@ -1,3 +1,2 @@
 # python_basics
-!study project!
-My homework for GeekBrains courses "Основы языка Python" и "Видеокурс Основы языка Python". 
+My homework for courses "Основы языка Python." and "Видеокурс - Основы языка Python."
